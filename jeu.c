@@ -3,6 +3,7 @@
 #include"constante.h"
 #include<time.h>
 #include"jeu.h"
+#include<SDL/SDL.h>
 
 
 
@@ -105,7 +106,7 @@ void remplissage(int map[T_TAB][T_TAB])
     }
   }
 
-
+// INITIALISATION DU PERSONNAGE
 
 }
 
@@ -134,6 +135,10 @@ void affichage(int map[T_TAB][T_TAB])
     printf("\n");
   }
 }
+
+
+
+
 
 
 
